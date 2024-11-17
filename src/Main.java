@@ -10,9 +10,7 @@ public class Main {
         System.out.println(Arrays.toString(reverseArray(5)));
         System.out.println(Arrays.toString(reverseArray(3)));
 
-
     }
-
 
     public static int[] reverseArray(int arrayLength) {
 
@@ -27,7 +25,6 @@ public class Main {
             lengthOfArray -= 1;
         }
         return descendingArray;
-
     }
 
     public static int[] randomArray(int length) {
@@ -40,7 +37,5 @@ public class Main {
         }
         return randomArray;
     }
-
-
 
 }
