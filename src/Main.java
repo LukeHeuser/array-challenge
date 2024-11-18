@@ -60,7 +60,7 @@ public class Main {
         int[] intArray = new int[arrayLength];
         int validInt;
 
-        System.out.printf("You have selected to create your own integer with a length of %d%n!"
+        System.out.printf("You have selected to create your own integer with a length of %d!%n"
                 , arrayLength);
         for(int i = 0; i < arrayLength; i++) {
             System.out.println("Enter an integer for an Array!");
@@ -70,8 +70,6 @@ public class Main {
         }
         System.out.println(Arrays.toString(intArray));
         return reverseArray(intArray);
-
-
 
     }
 
