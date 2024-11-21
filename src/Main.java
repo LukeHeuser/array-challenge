@@ -12,7 +12,7 @@ public class Main {
         System.out.println(Arrays.toString(reverseRandomArray(3)));
 
         System.out.println(Arrays.toString(getIntegers(5)));
-
+        
     }
 
     public static int[] reverseRandomArray(int arrayLength) {
@@ -67,10 +67,13 @@ public class Main {
             String nextInt = scanner.nextLine();
             validInt = Integer.parseInt(nextInt);
             intArray[i] = validInt;
+
         }
         System.out.println(Arrays.toString(intArray));
         return reverseArray(intArray);
 
     }
+
+
 
 }
